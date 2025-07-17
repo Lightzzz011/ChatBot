@@ -31,7 +31,7 @@ export const TEST_PROMPTS = {
       '0:"It\'s "',
       '0:"just "',
       '0:"green "',
-      '0:"duh! "',
+      '0:"duhhh! "',
       'e:{"finishReason":"stop","usage":{"promptTokens":3,"completionTokens":10},"isContinued":false}',
       'd:{"finishReason":"stop","usage":{"promptTokens":3,"completionTokens":10}}',
     ],
