@@ -12,7 +12,7 @@ export const test = baseTest.extend<{}, Fixtures>({
   adaContext: [
     async ({ browser }, use, workerInfo) => {
       const ada = await createAuthenticatedContext({
-        browser,
+        browser, 
         name: `ada-${workerInfo.workerIndex}-${getUnixTime(new Date())}`,
       });
 
