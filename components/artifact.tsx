@@ -36,7 +36,7 @@ export const artifactDefinitions = [
   sheetArtifact,
 ];
 export type ArtifactKind = (typeof artifactDefinitions)[number]['kind'];
-
+ 
 export interface UIArtifact {
   title: string;
   documentId: string;
